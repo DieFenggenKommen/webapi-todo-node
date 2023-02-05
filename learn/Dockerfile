@@ -1,6 +1,8 @@
 FROM node:lts-alpine
 
-ENV NODE_ENV=production PORT=3000
+ARG Port=3000
+
+ENV NODE_ENV=production PORT=${Port}
 
 WORKDIR /usr/src/app
 
