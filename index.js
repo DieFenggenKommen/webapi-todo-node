@@ -8,7 +8,7 @@ const todos = [
 ];
 
 app.get("/", (req, res) => {
-  res.send("ToDo API");
+  res.send("ToDo API with node");
 });
 
 app.get("/api/todos", (req, res) => {
@@ -19,4 +19,6 @@ app.get("/api/todos/:id", (req, res) => {
   res.send(todos.find((todo) => todo.id == req.params.id));
 });
 
-app.listen(3000, () => console.log(`Listening on port 3000`));
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => console.log(`Listening on port ${port}`));
