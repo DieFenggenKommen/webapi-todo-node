@@ -1,5 +1,18 @@
-# webapi-todo-node
+# Assignment_Docker_03
 
-A simple webapi written in NodeJS with express to learn about creating the correct Dockerfile.
+Hier ist eine einfache Web-API, die mit NodeJS und Express entwickelt worden ist.
+Sie verwendet keine Datenbank, sondern speichert die Daten in einer Liste im Memory ab.
 
-Here the container configuration files have been added
+## Lernziele
+- Erstellen eines Dockerfiles, für eine NodeJS Applikation.
+- Erfahrungen sammeln mit dem Caching von Layern in Docker und wie man dieses nutzen kann um die Erstellung des Images zu optimieren.
+
+## Aufgabe
+Erstelle ein Dockerfile für diese Applikation.
+
+Generiere ein Docker-Image und lade dieses auf dein Docker-Hub Repository hoch.
+
+Gib den Docker-Befehl an, der verwendet werden kann um dein Image herunterzuladen und als Container auszuführen.
+
+
+### Antwort
